@@ -1,0 +1,41 @@
+Nicholas Calkins
+November 22nd, 2019
+CS 3310 - Analysis and Design of Algorithms
+Professor Tannaz Rezaei
+
+This is the readme file that describes how to run the code
+
+#1 Fractional Knapsack
+1) Input desired information into input.txt
+2) Run the program, either by clicking on it or doing 
+   $./fractional_knapsack.py 
+   from commandline
+3) Input desired capacity of knapsack and push enter
+
+#2 0/1 Knapsack
+1) Input desired information into input.txt
+2) Run the program, either by clicking on it or doing
+   $./zero_one_knapsack.py
+   from commandline
+3) Input desired capacity of knapsack and push enter
+
+***NOTE ON input.txt***
+IT IS FORMATTED AS FOLLOWS:
+
+[item profit] [item weight]
+
+So if: 
+Item 1 has a profit of 3 and a weight of 2,
+Item 2 has a profit of 4 and a weight of 1,
+Item 3 has a profit of 8 and a weight of 4,
+Item 4 has a profit of 5 and a weight of 3...
+
+Then the contents of input.txt will read as follows:
+
+3 2
+4 1
+8 4
+5 3
+
+As you can see, the item number itself correlates to the line it is in the file
+
